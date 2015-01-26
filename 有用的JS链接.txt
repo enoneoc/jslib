@@ -1,4 +1,4 @@
-有用的JS链接
+﻿有用的JS链接
 
 phpWind内JS API
 http://wiki.open.phpwind.com/windapi/
@@ -10,3 +10,15 @@ http://headjs.com/
 
 用headjs来管理和加载js
 http://www.cnblogs.com/2050/archive/2012/07/14/2591449.html
+
+
+##SASS用法指南
+http://www.ruanyifeng.com/blog/2012/06/sass.html
+
+
+##Compass用法指南
+http://www.ruanyifeng.com/blog/2012/11/compass.html
+
+
+##SASS在线转换
+http://sassmeister.com/
