@@ -1,14 +1,12 @@
-﻿有用的JS链接
-
-phpWind内JS API
+﻿##phpWind内JS API
 http://wiki.open.phpwind.com/windapi/
 
 
-phpWind中的wind.js基于 headJs.js创建
-headJs
+##phpWind中的wind.js基于 headJs.js创建
 http://headjs.com/
 
-用headjs来管理和加载js
+
+##用headjs来管理和加载js
 http://www.cnblogs.com/2050/archive/2012/07/14/2591449.html
 
 
