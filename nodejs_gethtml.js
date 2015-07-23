@@ -51,18 +51,11 @@ for (pool in pools) {
 ＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
 原文网址：http://blog.miguelgrinberg.com/post/easy-web-scraping-with-nodejs
 */
-var movie = {
-	url: 'http://www.soundtrack.net/movie/selfless-2014/',
-	hdKeyword: '无我 / Selfless'
-};
-
-
-
 
 var request = require('request');
 var cheerio = require('cheerio');
 
-//var movie = {};
+var movie = {};
 //三列代表网址
 // movie = {
 // 	url: 'http://www.soundtrack.net/movie/step-up-3d/',
@@ -74,10 +67,10 @@ var cheerio = require('cheerio');
 // 	hdKeyword:'这是我的测试版 / 怎么样 / 还可以吧'
 // };
 //两列无分割标志代表网址
-// movie = {
-// 	url:'http://www.soundtrack.net/movie/paper-towns/',
-// 	hdKeyword:'这是我的测试版 / 怎么样 / 还可以吧'
-// };
+movie = {
+	url:'http://www.soundtrack.net/movie/paper-towns/',
+	hdKeyword:'这是我的测试版 / 怎么样 / 还可以吧'
+};
 //只有一首歌曲代表网址
 // movie = {
 // 	url:'http://www.soundtrack.net/movie/jupiter-ascending/',
